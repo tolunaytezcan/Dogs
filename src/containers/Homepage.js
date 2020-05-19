@@ -20,7 +20,7 @@ class Homepage extends React.Component {
     if (this.props.loadingFavorites) {
       return (
         <div>
-          <h3>Loading...</h3>
+          <h3>Dogs are Loading...</h3>
         </div>
       );
     }

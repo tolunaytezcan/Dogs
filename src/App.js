@@ -7,14 +7,11 @@ import FilteredDogs from "./containers/FilteredDogs";
 import DetailDogs from "./containers/DetailDog";
 import Aboutus from "./containers/Aboutus";
 import Turler from "./containers/Turler";
-import { Reactstrap } from "./components/Reactstrap";
+
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-
-        {/**********Dogs redux ekleme ödevi**********/}
-
         <Header />
         <Switch>
           <Route path="/" exact component={Homepage} />
@@ -30,14 +27,7 @@ class App extends React.Component {
             )}
           />
         </Switch>
-        {/*
-         */}
-
-        {/**********Reactstrap form ödevi**********/}
-
-        {/*
-                <Reactstrap/>
-        */}
+        
       </div>
     );
   }
