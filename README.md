@@ -1,21 +1,27 @@
-#  Projeyi calistirma
 
-`yarn install` komutu ile paketleri yukledikten sonra `yarn start` ile projeyi calistirabilirsiniz.
-Bildiginiz gibi bu projede bir backend servisiyle calistik. Projeyi baslatmadan once hompage dosyasindaki API_HOST degiskenini kendi mock api urlinizle degistirmeniz gerek, yoksa proje calismayacaktir. mockapi.io uzerinde bir hesap olusturduktan sonra asagidaki url e tiklarsaniz servis sizin icin clonelanacak.
+# Dogs
+`(EN)`
+In this project, I made a dog React application that shows the dog information registered in the database on the homepage. I am adding dog information to favorites and I did this using Redux. I show the dogs' information on another page using Router / Link. This project works with a backend service (mockapi). I used Reactstrap to make the site more beautiful.
+## Available Scripts
 
-https://mockapi.io/clone/5ea567662d86f00016b45b7f
+In the project directory, you can run:
 
-Bundan sonra API_HOST degiskenini kendi urliniz ile sonunda / olmadan degistirin.
+### `yarn install`
+### `yarn start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+# Dogs
+`(TR)`
+Bu React projesinde veritabanında kayıtlı olan köpek bilgilerini anasayfada gösteren bir köpek uygulaması yaptım. Köpek bilgilerini favoriye ekleme işlemi yapıyorum ve bunu Redux kullanarak yaptım. Köpeklerin bilgilerini Router/Link kullanarak başka sayfada gösteriyorum. Bu proje bir backend servisiyle(mockapi) çalışıyor. Siteyi daha güzel hale getirmek için Reactstrap kullandım.
+
+Proje dizinindeyken, şu komutları girin:
+
+### `yarn install`
+### `yarn start`
 
 
-# Odevler
-
- - Homepage'de tum kopek isimlerini listelerken, her kopek isminin bir Link haline getirilmesi ve linklere tiklandiginda "/detail/{kopekid}" urline gitmesi, bu urlde de ilgili kopegin image, tur, isim gibi kalan tum detaylarini gosterecegiz.
- - Bildiginiz uzere bu projede reacstrap kullandik. Siz de odevi yaparken reactstrap componentlerini kullanabilirsiniz stil acisindan daha guzel gozukmesi acisindan.
- - Favoriye ekleme-cikarma islemleri backendden oldugu icin bir bekleme suremiz var. bu bekleme sirasinda butonun disaboled olmasini islem bittikten sonra yeniden aktif olmasini bekliyorum
- 
-
-## Kaynaklar
-
-- [https://scotch.io/courses/using-react-router-4](https://scotch.io/courses/using-react-router-4)
-- [https://www.basefactor.com/react-how-to-display-a-loading-indicator-on-fetch-calls](https://www.basefactor.com/react-how-to-display-a-loading-indicator-on-fetch-calls)
